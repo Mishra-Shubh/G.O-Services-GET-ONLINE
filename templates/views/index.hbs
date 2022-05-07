@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+<body>
+    {{!-- <button class="btn btn-success">Awesome</button> --}}
+
+    {{>navbar}}
+    {{!-- hero section start  --}}
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-centeralign-items-start flex-column">
+                        <h1>WE WILL HELP YOU</h1>
+                        <h1>FIND BEST SERVICE</h1>
+                        <p>
+                            We Are The Team Of <span class="font-weight-bold">Professional Experts ✌︎</span>
+
+                        </p>
+                        <button class="btn-style btn-primary">Read More</button>
+                    </div>
+                {{!-- right side  --}}
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                             <img src="images/homesection.jpg
+                             " alt="hero-section-img">
+                        </figure>
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{!-- hero section ends  --}}
+
+
+
+    {{!-- aboutus section start  --}}
+    {{>about}}
+
+    {{!-- aboutus section ends  --}}
+
+
+
+    {{!-- services section start  --}}
+    {{>service}}
+
+    {{!-- services section ends  --}}
+
+
+    {{!-- maps section start  --}}
+    {{>maps}}
+
+    {{!-- maps section ends  --}}
+
+
+    {{!-- contact section start  --}}
+    {{>contact}}
+
+    {{!-- contact section ends  --}}
+
+    {{>footer}}
+
+    {{!-- <h1>home page</h1> --}}
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+    
+</body>
+</html>

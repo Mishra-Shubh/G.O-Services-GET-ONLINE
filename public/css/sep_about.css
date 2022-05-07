@@ -1,0 +1,38 @@
+.breadcrumps-section{
+    /* background-color: #e9ecef; */
+
+
+}
+
+#goal_img{
+    outline: none;
+
+}
+#goal_des{
+    font-size: 49px;
+
+}
+
+.home-newsletter{
+    background-color: #004d80;
+    color: white;
+  }
+
+
+
+
+.qualities-img{
+    width:200px;
+  }
+
+.vision_text{
+    padding-left: 20px;
+    right: 0;
+
+}
+.vision_img{
+    left: 0;
+    padding-left: 0;
+    width: 290px;
+    height: 196px;
+}
